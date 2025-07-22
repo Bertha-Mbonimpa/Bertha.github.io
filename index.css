@@ -1,0 +1,124 @@
+header{
+    background: linear-gradient(to right, rgb(224, 252, 224), rgb(250, 233, 250), rgb(245, 223, 184), rgb(222, 252, 222) ) ;
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navpicture{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navpicture img{
+    border-radius: 50%;
+    border-style: none;
+    height: 100px;
+    width: 100px;
+    transform: rotate(270deg);
+}
+.navlists ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.navlists a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.navbutton button{
+    border-radius: 20px;
+    border: rgb(108, 108, 252) solid 1px;
+    padding: 5px;
+}
+.navbutton i{
+    transform: rotate(-45deg);
+    border: 1px solid  rgb(95, 95, 238);
+    background-color: rgb(126, 126, 250);
+    border-radius: 50px;
+    padding: 6px;
+}
+.herosection {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.heroimage img{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    transform: rotate(270deg);
+}
+.herowords button{
+    border-radius: 20px;
+    border: 1px rgb(143, 143, 247) solid;
+    padding: 5px;
+}
+.herowords i{
+    border: blue 1px;
+    border-radius: 50%;
+    background-color: rgb(130, 130, 250);
+    padding: 4px;
+}
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.aboutmehead h2{
+    color: rgb(4, 214, 144);
+}
+section{
+    display: flex;
+    justify-content: space-around;
+}
+.aboutmeimage img{
+    height: 400px;
+    width: 800px;
+    border-radius: 20px;
+}
+.projects img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+.divtwo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.education{
+    border: grey 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+.experience {
+     border: grey 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.me {
+    border: grey 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+.green{
+    color: forestgreen;
+}
+.education h4 i{
+    border: rgb(156, 223, 156) 1px solid;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgb(135, 230, 135);
+
+}
+.experience h4 i{
+    border: rgb(156, 223, 156) 1px solid;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgb(135, 230, 135);
+}
